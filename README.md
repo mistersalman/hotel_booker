@@ -14,11 +14,17 @@ Context:
 
 How to Run:
   My settings:
+  
     I designed this project in PyCharm in order to minimize issues with preparing a virtual environment for Django. I highly encourage you do the same.
+    
     The application, as is, should be able to run out of the box. 'Run' the program and you will be directed to an admin login.
+    
+      Conversely, in the command line, run the code 'python3 manage.py runserver' in the command line (at the manage.py level)
+      
+      Once it's up and running, navigate to http://127.0.0.1:8000/admin/
+      
     Here, enter testAdmin as the login and password12 as the password. This will give you superuser access.
-
-
+    
 #TODO
 
   -Implement better front-end which allows for users to book multiple days (currently using default; needt o learn how to design this)
